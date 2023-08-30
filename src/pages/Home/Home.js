@@ -1,12 +1,12 @@
 import React from "react";
-import CounterContainer from "../../containers/CounterConatiner";
+import Counter from "../../components/Counter/Counter";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      <h2>Home Page</h2>
-      <CounterContainer />
+      <h2>Home Page - redux toolkit</h2>
+      <Counter />
     </div>
   );
 };
